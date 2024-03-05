@@ -2,56 +2,60 @@
 icon: simple/jupyter
 ---
 
-## Setting up EnzymeML Lab
+# Setting up JupyterLab
 
-Jupyter Notebook is a web-based interactive computing environment that allows you to create and share documents that contain live code, equations, visualizations, and narrative text. It is a great tool for data analysis and visualization. 
+!!! info
+    __What is JupyterLab?__  
+    JupyterLab is a web-based editor for writing and executing Jupyter Notebooks. Additionally, it allows you to see the file system, terminal, and other tools in the same window. This makes it a powerful tool for data analysis and visualization.
+
+    __How does it work?__  
+    Here we will install JupyterLab using Docker. This will allow you to run JupyterLab on your local machine without having to install Python, Jupyter, and the necessary Python tools to work with your data and the tools developed in this course.
+    Essentially, the Docker hosts a local website on your computer that runs JupyterLab. This website is accessible from your web browser as long as the container is running. Each time you start the container, the latest versions of the EnzymeML tools will be installed.
+
+## Initial Setup
 
 1. Install [Docker]
   [Docker]: docker_installation.md
 
-2. Open the Docker Desktop application search for `haeussma/enzymeml-lab` in the upper search bar and click on `RUN`.
+2. Open the Docker Desktop application search for `haeussma/enzymeml-lab` in the upper search bar and click on `Pull`.
 
-    ![Docker Desktop](../figs/get_image.png)
-
-    The container will be downloaded and a configuration window will be opened.
+    ![Docker Desktop](../figs/get_image.png){{: style="height:400px"}}
     
+3. Navigate to the `Images` section in the Docker Desktop application and click on :material-play: next to the `haeussma/enzymeml-lab` image.
+    A `Run a new container` window pops up. Click on `Optional settings` to configure the container with the following settings:
 
-3. Configure the container in the `Run a new container` window as follows in the `Optional settings` section.
-    In the `Volumes` section set the `Host path` to the folder, which should be accessible from JupyterLab. If in doubt specify your home directory.
+    `Container name`
+    :   Container name: `EnzymeML-Lab`
 
-    ![Docker Desktop](../figs/configure_container.png)
+    `Ports`
+    :    Host port: `8888`
 
-
-4. within the `Logs` of the container, you will find a token, which is needed to access the Jupyter Notebook. 
-
-    ```bash
-    2024-02-25 17:44:54 [I 2024-02-25 16:44:54.937 ServerApp]     http://127.0.0.1:8888/lab token=a9a39e2f219edac28f66cf2c88a9954978f78626e58e03f6
-    2024-02-25 17:44:54 [I 2024-02-25 16:44:54.937 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-    2024-02-25 17:44:54 [C 2024-02-25 16:44:54.939 ServerApp] 
-    2024-02-25 17:44:54     
-    2024-02-25 17:44:54     To access the server, open this file in a browser:
-    2024-02-25 17:44:54         file:///home/jovyan/.local/share/jupyter/runtime/jpserver-7-open.html
-    2024-02-25 17:44:54     Or copy and paste one of these URLs:
-    2024-02-25 17:44:54         http://e2376db8149d:8888/lab?token=a9a39e2f219edac28f66cf2c88a9954978f78626e58e03f6
-    2024-02-25 17:44:54         http://127.0.0.1:8888/lab?token=a9a39e2f219edac28f66cf2c88a9954978f78626e58e03f6
-    2024-02-25 17:44:55 [I 2024-02-25 16:44:55.984 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
-    ```
-
-    In the example above, the token is `a9a39e2f219edac28f66cf2c88a9954978f78626e58e03f6`.
-
-5. Click on the link in the header of the container to open the JupyterLab in your default web browser.
-
-    ![Docker Desktop](../figs/start_container.png)
+    `Volumes` 
+    !!! info inline end "Why specify a volume?"
+        The volume is used to define what directory of your local machine is visible to the container. Without this configuration, the container would not be able to access your local files. It is advised to make the directory in which you store your data for analysis.
 
 
-6. Enter the token from the logs in the field `Token` and click on `Log in`.
+    :   Host path: `{SELECT YOUR WORKING DIRECTORY}`       
+    :    Container path: `/home/jovyan/work`
 
-7. You are now in the JupyterLab environment your local files can be accessed via the `work` folder.
+    ??? example "Example"
+        ![Docker Desktop](../figs/configure_container.png){: style="height:400px"}
+
+
+    Then, click on `Run`. The initial configuration process for the container might take a few seconds up to two minutes.
+
+
+5. Click on the link `8888:8888` in the header of the container. This will open a new tab in your browser, showing the JupyterLab environment.
+    
+    ![Docker Desktop](../figs/initial_start.png){{: style="height:400px"}}
+
+
+7. 🎉 You are now in the JupyterLab environment. Your local files can be accessed via the `work` folder.
 
 ## Stopping the Container
 
-To stop the container, click on the `Stop` icon in the `Docker Desktop` application. You will find it in the `Containers` section. Running containers are symbolized by a green container icon.
+To start the container, navigate to the `Containers` section in the Docker Desktop application and click on the :material-stop: button next to the `EnzymeML-Lab` container. Running containers are symbolized by a green container icon. You can close the browser window whenever you want. The container will keep running in the background unless you stop it in the Docker Desktop app.
 
 ## Restarting the Container
 
-To restart the container, click on the `Start` icon in the `Docker Desktop` application. You will find it in the `Containers` section. Stopped containers are symbolized by a red container icon. The klick on the blue port number next to the start icon. You may need to copy the access token from the logs again. You find the logs by clicking on the container name in the `Containers` section. 
+To start the container, navigate to the `Containers` section in the Docker Desktop application and click on the :material-play: button next to the `EnzymeML-Lab` container. Then click on the blue port number `8888:8888` next to the start button.
