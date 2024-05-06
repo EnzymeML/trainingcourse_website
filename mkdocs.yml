@@ -4,6 +4,7 @@ nav:
   - Home: index.md
   - DIY: 
     - Getting started: getting_started.md
+    - Python basics and manipulation of data: load_and_manipulate.md
   - Project Status: status.md
   - Installations: 
     - Docker: docker_installation.md

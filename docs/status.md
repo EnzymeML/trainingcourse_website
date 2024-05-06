@@ -20,7 +20,9 @@ The conceptualized analysis workflow consists of the following steps, which are 
 - [x] Creation of standard curves
 - [x] Use of calibration curves for concentration calculation
 - [x] Export of data to EnzymemML
-- [ ] Export of data to CSV
+- [x] Export of data to CSV
+- [ ] Export of data to EnzymemML
+
 
 ## Implementation status [ChromatoPy](https://github.com/FAIRChemistry/chromatopy)
 **Supported Systems**
@@ -34,7 +36,6 @@ The conceptualized analysis workflow consists of the following steps, which are 
 - [x] Read in data
 - [x] Peak detection/integration
 - [x] Extract peaks of given retention time from many spectra
-- [ ] Concentration calculation via internal standard
-- [ ] Concentration calculation via external standard
+- [x] Concentration calculation via external standard
+- [x] Export of data to CSV
 - [ ] Export of data to EnzymemML
-- [ ] Export of data to CSV
