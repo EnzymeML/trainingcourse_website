@@ -10,7 +10,7 @@ icon: simple/jupyter
 
     __How does it work?__  
     Here we will install JupyterLab using Docker. This will allow you to run JupyterLab on your local machine without having to install Python, Jupyter, and the necessary Python tools to work with your data and the tools developed in this course.
-    Essentially, the Docker hosts a local website on your computer that runs JupyterLab. This website is accessible from your web browser as long as the container is running. Each time you start the container, the latest versions of the EnzymeML tools will be installed.
+    Essentially, the Docker hosts a local website on your computer that runs JupyterLab. This website is accessible from your web browser as long as the container is running. Each time you start the container, the latest versions of the EnzymeML tools will be installed. If you are interested in the Dockerfile, you can find it [here](https://github.com/EnzymeML/EnzymeML_JupyterLab)
 
 ## Initial Setup
 
