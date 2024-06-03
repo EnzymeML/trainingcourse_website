@@ -2,13 +2,14 @@ site_name: EnzymeML Training Course
 
 nav:
   - Home: index.md
-  - DIY: 
-    - Getting started: getting_started.md
-    - Python basics and manipulation of data: load_and_manipulate.md
+  - DIY:
+      - Getting started: getting_started.md
+      - Python basics and manipulation of data: load_and_manipulate.md
+      - Working with late data: plate_data.md
   - Project Status: status.md
-  - Installations: 
-    - Docker: docker_installation.md
-    - JupyterLab: jupyterlab_installation.md
+  - Installations:
+      - Docker: docker_installation.md
+      - JupyterLab: jupyterlab_installation.md
 
 theme:
   name: material
@@ -29,11 +30,11 @@ theme:
     - content.code.copy
     - content.code.annotation
     - content.tooltips
-  palette: 
+  palette:
     # Palette toggle for light mode
     - scheme: default
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
 
     # Palette toggle for dark mode
@@ -41,7 +42,6 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-
 
 markdown_extensions:
   - abbr
