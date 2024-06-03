@@ -5,7 +5,7 @@ nav:
   - DIY:
       - Getting started: getting_started.md
       - Python basics and manipulation of data: load_and_manipulate.md
-      - Working with late data: plate_data.md
+      - Working with pate data: plate_data.md
   - Project Status: status.md
   - Installations:
       - Docker: docker_installation.md

@@ -2,7 +2,7 @@
 
 The implementations of this project aim at simplifying the process of data acquisition and analysis and streamlining the process of making publication-ready datasets. In this regard the two tools `MTPHandler` and `ChromatoPy` are being developed, facilitating the handling of microplate data and chromatography data, respectively.
 
-The conceptualized analysis workflow consists of the following steps, which are carried out in a Jupyter Notebook, where as the developed tools are used, depending on the experimental scenario.
+The conceptualized analysis workflow consists of the following steps, which are carried out in a Jupyter Notebook, whereas the developed tools are used, depending on the experimental scenario.
 
 ## Implementation status [MTPHandler](https://github.com/FAIRChemistry/MTPHandler)
 **Supported Systems**
@@ -10,7 +10,7 @@ The conceptualized analysis workflow consists of the following steps, which are 
 - [x] SpectraMax M2
 - [x] Magellan Sky 
 - [ ] SpectraMax 190
-- [ ] Tekan Spark
+- [x] Tekan Spark
 - [ ] BioTek Epoch
 
 **Functionalities**
