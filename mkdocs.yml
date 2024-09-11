@@ -2,6 +2,9 @@ site_name: EnzymeML Training Course
 
 nav:
   - Home: index.md
+  - EnzymeML Workshop 2024:
+      - Programme: workshop_2024/schedule.md
+      - Hackathon: workshop_2024/hackathon.md
   - DIY:
       - Getting started: getting_started.md
       - Python basics and manipulation of data: load_and_manipulate.md
