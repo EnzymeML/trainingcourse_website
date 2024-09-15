@@ -3,6 +3,7 @@ site_name: EnzymeML Training Course
 nav:
   - Home: index.md
   - EnzymeML Workshop 2024:
+      - General: workshop_2024/general.md
       - Programme: workshop_2024/schedule.md
       - Hackathon: workshop_2024/hackathon.md
   - DIY:
