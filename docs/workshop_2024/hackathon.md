@@ -25,7 +25,7 @@ For this session, the following Python libraries are required, each serving a sp
   A library that facilitates the analysis of Nuclear Magnetic Resonance (NMR) data. It helps in spectral processing, visualization, and interpretation of (time-course) NMR experiments.
 
 - **Catalax**
-  A computational library for simulating catalytic processes and enzyme-catalyzed reactions based on JAX. Catalax offers tools for inetgration, parameter estimation and neural ordinary differential equations.
+  A computational library for simulating catalytic processes and enzyme-catalyzed reactions based on JAX. Catalax offers tools for integration, parameter estimation and neural ordinary differential equations.
 
 - **Basico/COPASI**
   Basico is a Python interface for COPASI, a widely-used software for simulating and analyzing biochemical networks. Basico provides Pythonic access to COPASI’s features, such as simulating models, parameter estimation, and sensitivity analysis.
