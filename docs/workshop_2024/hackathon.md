@@ -1,6 +1,6 @@
 # Hackathon: Managing Your Own Data with EnzymeML Tools
 
-This session is designed to familiarize participants with the EnzymeML tools through an interactive workshop. It begins with an introduction to the EnzymeML Suite, a comprehensive grapgical application for creating and visualizing EnzymeML documents. The session will also highlight interoperability with various libraries, showcasing integrations with tools like MTPHandler, NMRPy, and Catalax to enhance versatility and functionality. Thereafter, brought datasets will be read in, with the EnzymeML tools [`chromatopy`](https://fairchemistry.github.io/chromatopy/) for chromatographic measurements, [`mtphandler`](https://fairchemistry.github.io/MTPHandler/), as well as [`nmrpy`](https://nmrpy.readthedocs.io/en/latest/?badge=latest)
+This session is designed to familiarize participants with the EnzymeML tools through an interactive workshop. It begins with an introduction to the EnzymeML Suite, a comprehensive grapgical application for creating and visualizing EnzymeML documents. The session will also highlight interoperability with various libraries, showcasing integrations with tools like MTPHandler, NMRPy, and Catalax to enhance versatility and functionality. Thereafter, brought datasets will be read in, with the EnzymeML tools [`chromatopy`](https://fairchemistry.github.io/chromatopy/) for chromatographic measurements, [`MTPHandler`](https://fairchemistry.github.io/MTPHandler/), as well as [`nmrpy`](https://nmrpy.readthedocs.io/en/latest/?badge=latest)
 
 ## Requirements
 
@@ -13,35 +13,24 @@ Anaconda simplifies installing and managing Python, Jupyter, and essential tools
 
 ### Python Libraries
 
-For this session, the following Python libraries are required, each serving a specific purpose:
+For this session, the following Python libraries will be used, each serving a specific purpose:
 
-- **PyEnzyme**
-  A Python package used to handle the EnzymeML data format.
-
-- **Chromatopy**
+- **Chromatopy**  
   A versatile library used for processing chromatographic data.
 
-- **NMRPy**
+- **MTPHandler**  
+  A library for handling data from microtiter plate (MTP) readers. It supports various file formats and provides tools for data processing.
+
+- **NMRPy**  
   A library that facilitates the analysis of Nuclear Magnetic Resonance (NMR) data. It helps in spectral processing, visualization, and interpretation of (time-course) NMR experiments.
 
-- **Catalax**
+- **Catalax**  
   A computational library for simulating catalytic processes and enzyme-catalyzed reactions based on JAX. Catalax offers tools for integration, parameter estimation and neural ordinary differential equations.
 
-- **Basico/COPASI**
+- **Basico/COPASI**  a
   Basico is a Python interface for COPASI, a widely-used software for simulating and analyzing biochemical networks. Basico provides Pythonic access to COPASI’s features, such as simulating models, parameter estimation, and sensitivity analysis.
 
-__Installing the Dependencies__
-
-To install all these libraries, execute the following command:
-
-!!! info
-    Not all of the dependency installs will work before the workshop, as some of the packages are not yet published. Installation of the dependencies will also be done during the workshop.
-
-```bash
-pip install pyenzyme chromatopy nmrpy catalax basico
-```
-
-This command installs all the necessary packages in your Python environment, ensuring you have everything set up to begin working within this session.
+Installation of the required libraries will be covered during the workshop.
 
 ### Bringing Your Own Data
 

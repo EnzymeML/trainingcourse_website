@@ -8,13 +8,15 @@
 |-------|--------------------------------------------------------------------------------------------------|
 | 9:00  | **Jürgen Pleiss**:<br>Welcome and overview on EnzymeML activities                                    |
 | 9:30  | **Jan Range, Max Häussler, Torsten Giess (U.Stuttgart)**:<br>Demonstration of EnzymeML tools                       |
-| 12:00 | _End of session 1 and lunch_                                                                        |
+| 12:30 | _End of session 1 and lunch_                                                                        |
 
-### Session 2: Hands-on: Managing Your Own Data
+### Session 2: Hackathon: Managing Your Own Data
+
+!!! tip "Find more information on the hackathon session [here](hackathon.md)."
 
 | Time  | Talk                                                                                         |
 |-------|--------------------------------------------------------------------------------------------------|
-| 13:30 | **Jan Range, Max Häussler, Torsten Giess & all participants**:<br>Read in, analyze, and publish your own datasets |
+| 14:00 | **Jan Range, Max Häussler, Torsten Giess & all participants**:<br>Read in and analyze your own datasets |
 | 17:00 | _End of session 2_                                                                                  |
 | 17:15 | _Excursion_                                                                                         |
 | 19:30 | _Dinner_                                                                                            |
@@ -61,8 +63,8 @@
 
 | Time  | Talk                                                                                         |
 |-------|--------------------------------------------------------------------------------------------------|
-| 16:00 | **Santiago Schnell (U.Notre Dame)**:<br>Round robin study on measuring enzyme reactions       |
-| 16:30 | **Mehdi Davari (IBP, Halle)**:<br>Critical Assessment of Enzyme Design     |
-| 17:00 | _Final remarks_                                                                                  |
-| 17:30 | _End of session 6_                                                                                  |
+| 14:00 | **Santiago Schnell (U.Notre Dame)**:<br>Round robin study on measuring enzyme reactions       |
+| 14:30 | **Mehdi Davari (IBP, Halle)**:<br>Critical Assessment of Enzyme Design     |
+| 15:00 | _Final remarks_                                                                                  |
+| 15:30 | _End of session 6_                                                                                  |
 | 19:30 | _Dinner_                                                                                            |
