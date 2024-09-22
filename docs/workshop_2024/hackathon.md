@@ -100,3 +100,13 @@ graph LR
 
     EMLD <-->|read / write| EnzymeMLDocument
 ```
+
+
+## 🏁 Let's start!
+
+<div class="grid cards" markdown>
+
+- 🔬 __[Process Plate Reader Data](plate_reader.md)__
+- 🌈 __[Process Chromatographic Data](chromatography.md)__
+
+</div>
