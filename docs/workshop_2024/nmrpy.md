@@ -29,7 +29,7 @@ If you do not have your own data, you can use the example data set found in the 
 
 ### Install the `NMRpy` package
 
-Copy the following code snippet into the first cell of your Jupyter Notebook and run it. You will also find this code snippet in the tutorial Notebooks. This code snippet will install the `NMRpy` package and additional dependencies like `pyenzyme` if they are not already installed. This is a one-time setup and will not be required for future sessions.
+Copy the following code snippet into the first cell of your Jupyter Notebook and run it. You will also find this code snippet in the Notebooks found in the [tutorial repository on GitHub](https://github.com/FAIRChemistry/nmrpy_tutorial/tree/main). This code snippet will install the `NMRpy` package and additional dependencies like `pyenzyme` if they are not already installed. This is a one-time setup and will not be required for future sessions.
 
 ```python
 import sys
