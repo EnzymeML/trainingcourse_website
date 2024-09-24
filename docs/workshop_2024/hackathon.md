@@ -106,6 +106,7 @@ graph LR
 
 <div class="grid cards" markdown>
 
+- 📚 __[EnzymeML Suite](https://github.com/JR-1991/enzymeml-dashboard/releases/tag/v0.0.1)__
 - 🔬 __[Process Plate Reader Data](plate_reader.md)__
 - 🌈 __[Process Chromatographic Data](chromatography.md)__
 - 🧲 __[Process NMR Data](nmrpy.md)__
