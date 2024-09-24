@@ -15,19 +15,19 @@ Anaconda simplifies installing and managing Python, Jupyter, and essential tools
 
 For this session, the following Python libraries will be used, each serving a specific purpose:
 
-- **Chromatopy**  
+- **Chromatopy**
   A versatile library used for processing chromatographic data.
 
-- **MTPHandler**  
+- **MTPHandler**
   A library for handling data from microtiter plate (MTP) readers. It supports various file formats and provides tools for data processing.
 
-- **NMRPy**  
+- **NMRPy**
   A library that facilitates the analysis of Nuclear Magnetic Resonance (NMR) data. It helps in spectral processing, visualization, and interpretation of (time-course) NMR experiments.
 
-- **Catalax**  
+- **Catalax**
   A computational library for simulating catalytic processes and enzyme-catalyzed reactions based on JAX. Catalax offers tools for integration, parameter estimation and neural ordinary differential equations.
 
-- **Basico/COPASI**  a
+- **Basico/COPASI** a
   Basico is a Python interface for COPASI, a widely-used software for simulating and analyzing biochemical networks. Basico provides Pythonic access to COPASI’s features, such as simulating models, parameter estimation, and sensitivity analysis.
 
 Installation of the required libraries will be covered during the workshop.
@@ -36,19 +36,18 @@ Installation of the required libraries will be covered during the workshop.
 
 If you plan to utilize your own data, please refer to the following list of supported devices and file formats. However, if you don't have your own data that meets these requirements, you can use prepared datasets provided during the workshop.
 
-- __Plate reader data__  
-    please refer to the supported formats in the [documentation of `MTPHandler`](https://fairchemistry.github.io/MTPHandler/#supported-plate-readers)
-- __Chromatographic data__  
-    please refer to the supported formats and data preparation in the [documentation of `chromatopy`](https://fairchemistry.github.io/chromatopy/supported_formats/)
-- __NMR data__  
-    FIDs of NMR measurements (e.g., Bruker, Varian)
+- **Plate reader data**
+  please refer to the supported formats in the [documentation of `MTPHandler`](https://fairchemistry.github.io/MTPHandler/#supported-plate-readers)
+- **Chromatographic data**
+  please refer to the supported formats and data preparation in the [documentation of `chromatopy`](https://fairchemistry.github.io/chromatopy/supported_formats/)
+- **NMR data**
+  FIDs of NMR measurements (e.g., Bruker, Varian)
 
 You should also bring data from calibration measurements if applicable for your data analysis.
 
 ## Agenda
 
 The hackathon session will start with an introduction in the EnzymeML Suite and how it can be used to capture an experiment with its graphical user interface. Thereafter, either onw datasets or prepared data sets can be processed with the EnzymeML Python tools in a Jupyter Notebook therefore the mentioned Anaconda installation is required. The following workflow illustrates the steps for each of the supported analytical instruments and the optional subsequent data analysis steps:
-
 
 ```mermaid
 graph LR
@@ -101,14 +100,13 @@ graph LR
     EMLD <-->|read / write| EnzymeMLDocument
 ```
 
-
 ## 🏁 Let's start!
 
 <div class="grid cards" markdown>
 
-- 📚 __[EnzymeML Suite](https://github.com/JR-1991/enzymeml-dashboard/releases/tag/v0.0.1)__
-- 🔬 __[Process Plate Reader Data](plate_reader.md)__
-- 🌈 __[Process Chromatographic Data](chromatography.md)__
-- 🧲 __[Process NMR Data](nmrpy.md)__
+- 📚 **[EnzymeML Suite](suite.md)**
+- 🔬 **[Process Plate Reader Data](plate_reader.md)**
+- 🌈 **[Process Chromatographic Data](chromatography.md)**
+- 🧲 **[Process NMR Data](nmrpy.md)**
 
 </div>
