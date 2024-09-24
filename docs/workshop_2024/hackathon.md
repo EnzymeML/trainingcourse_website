@@ -108,5 +108,6 @@ graph LR
 
 - 🔬 __[Process Plate Reader Data](plate_reader.md)__
 - 🌈 __[Process Chromatographic Data](chromatography.md)__
+- 🧲 __[Process NMR Data](nmrpy.md)__
 
 </div>
