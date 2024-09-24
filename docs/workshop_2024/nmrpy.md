@@ -25,7 +25,7 @@ __If you brought your own NMR data...__
 If you brought your own chromatographic file, add it to the project folder. Please make sure that your data is organized in a way that it can be read by the `NMRpy` package. You can find the supported formats  in the [documentation of `NMRpy`](https://nmrpy.readthedocs.io/en/latest/).
 
 __If you do not have your own data...__  
-If you do not have your own data, you can use the example data set found in the `NMRpy_tutorial` repository in the `tutorial/data/` directory.
+If you do not have your own data, you can use the example data set found in the `NMRpy_tutorial` [repository on GitHub](https://github.com/FAIRChemistry/nmrpy_tutorial/tree/main) in the `tutorial/data/` directory.
 
 ### Install the `NMRpy` package
 
