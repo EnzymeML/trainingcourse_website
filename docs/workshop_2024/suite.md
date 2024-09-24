@@ -4,7 +4,7 @@ In order to install the EnzymeML Suite, choose one of the following options depe
 
 - [Windows](https://github.com/JR-1991/enzymeml-dashboard/releases/download/v0.0.1/EnzymeML.Suite_0.0.1_x64-setup.exe)
 - [Windows (MSI)](https://github.com/JR-1991/enzymeml-suite/releases/download/v0.0.1/EnzymeML.Suite_0.0.1_x64_en-US.msi)
-- [macOS (Apple Silicon)](https://github.com/JR-1991/enzymeml-suite/releases/download/v0.0.1/EnzymeML.Suite_0.0.1_x64.dmg)
+- [macOS (Apple Silicon)](https://github.com/JR-1991/enzymeml-dashboard/releases/download/v0.0.1/EnzymeML.Suite_0.0.1_aarch64.dmg)
 - [macOS (Intel)](https://github.com/JR-1991/enzymeml-dashboard/releases/download/v0.0.1/EnzymeML.Suite_0.0.1_x64.dmg)
 - [Ubuntu](https://github.com/JR-1991/enzymeml-dashboard/releases/download/v0.0.1/enzyme-ml-suite_0.0.1_amd64.deb)
 
