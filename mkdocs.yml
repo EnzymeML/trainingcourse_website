@@ -6,10 +6,6 @@ nav:
       - Session 1 - Overview: sessions/01-overview.md
       - Session 2 - Programming Setup: sessions/02-programming-setup.md
       - Session 3 - Read Experimental Data: sessions/03-read-experimental-data.md
-  - Use cases:
-      - Motivation: usecases/motivation.md
-      - Hackathon: usecases/hackathon.md
-
 
 theme:
   name: material
