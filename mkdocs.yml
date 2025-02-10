@@ -1,21 +1,15 @@
 site_name: EnzymeML Training Course
 
 nav:
-  - Home:
-      - EnzymeML Training Course: index.md
-      - Hackathon: workshop_2024/hackathon.md
-  - EnzymeML Workshop 2024:
-      - General: workshop_2024/general.md
-      - Programme: workshop_2024/schedule.md
+  - About: index.md
+  - Sessions:
+      - Session 1 - Overview: sessions/01-overview.md
+      - Session 2 - Programming Setup: sessions/02-programming-setup.md
+      - Session 3 - Read Experimental Data: sessions/03-read-experimental-data.md
+  - Use cases:
+      - Motivation: usecases/motivation.md
+      - Hackathon: usecases/hackathon.md
 
-  # - DIY:
-  #     - Getting started: getting_started.md
-  #     - Python basics and manipulation of data: load_and_manipulate.md
-  #     - Working with plate data: plate_data.md
-  # - Project Status: status.md
-  # - Installations:
-  #     - Docker: docker_installation.md
-  #     - JupyterLab: jupyterlab_installation.md
 
 theme:
   name: material
